@@ -1,0 +1,78 @@
+body {
+    font-family: Georgia, Cambria, Cochin, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+}
+
+.header li {
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header ul {
+    float: right;
+    padding: auto 50px;
+}
+
+.logo {
+    height: 50px;
+    margin-left:  10px;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/*
+.banner #img {
+    background-image: url(../images/gymnasium.jpg);
+    width: 100%;
+    height: auto;
+}
+*/
+
+.banner h1 {
+    text-align: center;
+    padding: 200px 0;
+    width: 100%;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer h2 {
+    font-size: 30px;
+}
+
+.offer div {
+    margin: 20px;
+    height: 400px;
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.newspaper {
+    background-color: skyblue;
+}
+
+.statistics {
+    background-color: yellow;
+}
+
+.reports {
+    background-color: red;
+}
